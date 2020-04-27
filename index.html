@@ -2,7 +2,11 @@
 <html lang="en">
 
   <head>
-
+<script>
+	funcion enviaWtsp(){
+	javascript: (function() { var val= prompt("Enter phone number",""); if (val) location="https://api.whatsapp.com/send?phone="+escape('972' + val)+""; })()
+	}
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -65,6 +69,10 @@
     <!-- Portfolio Grid Section -->
     <p>portfolio</p>
 	  <a href="https://api.whatsapp.com/send?phone=34630533804">Send Message</a>
+	  <br>
+	  <a href='javascript: (function() { var val= prompt("Enter phone number",""); if (val) location="https://api.whatsapp.com/send?phone="+escape('972' + val)+""; })()'>SEND</a>
+	  
+	  
 		<div w3-include-html="./portfolio.html"></div>
     <p>portfolio</p>
 
