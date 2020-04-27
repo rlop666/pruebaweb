@@ -4,7 +4,7 @@
   <head>
 <script>
 	funcion enviaWtsp(){
-	javascript: (function() { var val= prompt("Enter phone number",""); if (val) location="https://api.whatsapp.com/send?phone="+escape('972' + val)+""; })()
+		var val= prompt("Enter phone number",""); if (val) location="https://api.whatsapp.com/send?phone="+escape('972' + val)+"";
 	}
 </script>
     <meta charset="utf-8">
@@ -70,7 +70,7 @@
     <p>portfolio</p>
 	  <a href="https://api.whatsapp.com/send?phone=34630533804">Send Message</a>
 	  <br>
-	  <a href='javascript: (function() { var val= prompt("Enter phone number",""); if (val) location="https://api.whatsapp.com/send?phone="+escape('972' + val)+""; })()'>SEND</a>
+	  <a href="enviaWtsp()">SEND</a>
 	  
 	  
 		<div w3-include-html="./portfolio.html"></div>
